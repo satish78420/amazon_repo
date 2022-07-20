@@ -1,0 +1,16 @@
+{
+	"name": "AzureBlobStorage1",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "AzureBlobStorage",
+		"typeProperties": {
+			"connectionString": "DefaultEndpointsProtocol=https;AccountName=adfstorage2007;EndpointSuffix=core.windows.net;",
+			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIkRBVEFGQUNUT1JZQERENUEwODRELTI2NTktNEU5Ri1CNkRCLTQxQjJFNzU3QjJDNV9hOWQ2ZTgzNi03YjI0LTQwMGItOGY2Ny1mYTAxYTY1ZGRiZTgiDQp9"
+		},
+		"connectVia": {
+			"referenceName": "lsamazon",
+			"type": "IntegrationRuntimeReference"
+		}
+	}
+}
