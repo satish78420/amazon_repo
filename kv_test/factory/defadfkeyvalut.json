@@ -1,0 +1,9 @@
+{
+	"name": "defadfkeyvalut",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "33895b06-fa02-446a-9e6c-879f18595361",
+		"tenantId": "44f11f1b-04ee-4ec1-b5b4-802e5dd90122"
+	}
+}
