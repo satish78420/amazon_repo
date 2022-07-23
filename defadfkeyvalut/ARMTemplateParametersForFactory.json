@@ -1,0 +1,15 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "defadfkeyvalut"
+		},
+		"ls_kv_properties_typeProperties_baseUrl": {
+			"value": "https://adfkey2307.vault.azure.net/"
+		},
+		"ls_storage_properties_typeProperties_connectionString_secretName": {
+			"value": "adfsecret2307"
+		}
+	}
+}
